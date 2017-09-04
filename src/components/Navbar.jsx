@@ -3,7 +3,7 @@ import { FaInstagram, FaUser, FaHeartO, FaCompass, FaSearch } from 'react-icons/
 import styled from 'styled-components';
 
 const Nav = styled.div`
-  background-color: white;
+  background-color: papayawhip;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +15,7 @@ const Nav = styled.div`
   p{
     font-size: 1.75rem;
     font-family: 'Oleo Script', cursive;
+    color: palevioletred;
     margin: 0;
     svg{
       margin-bottom: 5px;
@@ -44,6 +45,7 @@ const IconsContainer = styled.div`
   width: 25%;
   display: flex;
   justify-content: space-around;
+  color: palevioletred;
 `;
 
 class Navbar extends Component{

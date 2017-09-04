@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { FaHeartO, FaCommentO } from 'react-icons/lib/fa'
 
 const PostContainer = styled.div`
-  background-color: #fff;
+  background-color: #01e1fe;
   border-radius: 3px;
   width: 95vw;
   max-width: 600px;
@@ -37,11 +37,13 @@ const PostContent = styled.div`
 
 const PostInfo = styled.div`
   padding: 5px 16px;
+}
 `;
 
 const PostActions = styled.div`
   svg{
     padding: 5px;
+    color: palevioletred;
   }
 `
 
